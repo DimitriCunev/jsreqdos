@@ -1,0 +1,16 @@
+{
+  "name": "jsreqdos",
+  "version": "1.0.0",
+  "description": "Request DOS servers in order to cause overload.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cunev S. Dmitri",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.8.6",
+    "node-fetch": "^2.6.1",
+    "terminal-kit": "^1.44.0"
+  }
+}
